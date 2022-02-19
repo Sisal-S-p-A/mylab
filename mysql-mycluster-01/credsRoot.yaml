@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Secret
 metadata:
-  name: credsRoot
+  name: root-password
 type: Opaque
 data:
   rootUser: cm9vdA==

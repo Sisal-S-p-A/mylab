@@ -5,3 +5,11 @@ helm:
   chart: mysql-operator
   releaseName: mysql-operator
   version: 8.0.28-2.0.3
+
+diff:
+  comparePatches:
+  - apiVersion: apps/v1
+    kind: Deployment
+    name: mysql-operator
+    operations:
+    - {"op": "remove", "path": "/metadata/labels/app.kubernetes.io~1managed-by"}

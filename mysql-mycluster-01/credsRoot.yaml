@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: credsRoot
+  namespace: mysql-mycluster-01
+type: Opaque
+data:
+  rootUser: cm9vdA==
+  rootHost: JQ==
+  rootPassword: bXlfc2VjcmV0X3Bhc3N3ZF8wMSE=

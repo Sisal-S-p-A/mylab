@@ -1,1 +1,4 @@
+dependsOn:
+  - name: mylab-mysql-operator
+  
 defaultNamespace: mysql-mycluster-02

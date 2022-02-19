@@ -9,5 +9,4 @@ diff:
     kind: Secret
     name: mycluster-01-backup
     namespace: mysql-mycluster-01
-    operations:
-    - {"op": "remove", "path": "/"}
+    delete: true

@@ -2,3 +2,12 @@ dependsOn:
   - name: mylab-mysql-operator
   
 defaultNamespace: mysql-mycluster-01
+
+diff:
+  comparePatches:
+  - apiVersion: apps/v1
+    kind: Secret
+    name: mycluster-01-backup
+    namespace: mysql-mycluster-01
+    operations:
+    - {"op": "remove", "path": "/"}

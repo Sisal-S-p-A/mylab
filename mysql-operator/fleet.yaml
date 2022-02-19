@@ -4,3 +4,4 @@ helm:
   repo: https://mysql.github.io/mysql-operator
   chart: mysql-operator
   releaseName: mysql-operator
+  version: 8.0.28-2.0.3

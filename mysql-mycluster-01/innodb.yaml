@@ -4,7 +4,7 @@ metadata:
   name: mycluster-01
   namespace: mysql-mycluster-01
 spec:
-  secretName: mypwds
+  secretName: credsRoot
   instances: 3
   router:
     instances: 1

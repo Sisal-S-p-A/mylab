@@ -1,8 +1,8 @@
 apiVersion: mysql.oracle.com/v2alpha1
 kind: InnoDBCluster
 metadata:
-  name: mycluster
-  namespace: mysql-mycluster
+  name: mycluster-01
+  namespace: mysql-mycluster-01
 spec:
   secretName: mypwds
   instances: 3

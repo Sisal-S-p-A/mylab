@@ -6,5 +6,6 @@ spec:
   version: "8.0.26"
   secretName: root-password
   instances: 1
+  baseServerId: 2000
   router:
     instances: 1

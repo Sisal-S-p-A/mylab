@@ -4,8 +4,9 @@ metadata:
   name: mycluster
 spec:
   version: "8.0.26"
+  edition: "enterprise"
   secretName: root-password
-  instances: 1
+  instances: 3
   baseServerId: 2000
   router:
     instances: 1

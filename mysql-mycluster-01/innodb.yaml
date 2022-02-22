@@ -4,6 +4,6 @@ metadata:
   name: mycluster
 spec:
   secretName: root-password
-  instances: 3
+  instances: 1
   router:
     instances: 3

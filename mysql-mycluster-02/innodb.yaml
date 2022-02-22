@@ -4,7 +4,6 @@ metadata:
   name: mycluster
 spec:
   version: "8.0.25"
-  edition: "community"
   secretName: root-password
   instances: 3
   baseServerId: 2000

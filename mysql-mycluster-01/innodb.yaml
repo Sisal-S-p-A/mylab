@@ -6,4 +6,4 @@ spec:
   secretName: root-password
   instances: 3
   router:
-    instances: 1
+    instances: 2

@@ -5,7 +5,7 @@ metadata:
 spec:
   #version: "8.0.26"
   version: "8.0.28"
-  edition: "enterprise"
+  #edition: "enterprise"
   secretName: root-password
   instances: 3
   baseServerId: 2000
